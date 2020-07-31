@@ -69,4 +69,22 @@ public class Plane extends GameObject {
 			   break;
 		   }
 	   }
+	   //this is 2020-7-31 add some new
+	   public void minutesDirection(KeyEvent e){
+                           switch(e.getKeyCode()) {
+                   case KeyEvent.VK_LEFT:
+                           left=false;
+                       break;
+                   case KeyEvent.VK_UP:
+                           up=false;
+                           break;
+                   case KeyEvent.VK_RIGHT:
+                           right=false;
+                           break;
+                   case KeyEvent.VK_DOWN:
+                           down=false;
+                           break;
+                   }
+
+	   }
 }

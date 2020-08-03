@@ -1,0 +1,14 @@
+
+
+#  person:
+#      name: hehuibing
+#      age: 20
+#      man: true
+#      birthday: 2020/10/20
+#      maps: {k1:v1,k2:v2}
+#      list:
+#          - list1
+#          - list2
+#      pet:
+#          name: lucy
+#          kind: cat
